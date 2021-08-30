@@ -36,3 +36,8 @@ h1 {
 .container-fluid2 {
     padding-left: 0;
 }
+
+/* Download buttons */
+.download-button {
+    margin: 5% 3% 5% 0;
+}
