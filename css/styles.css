@@ -49,3 +49,6 @@ h1 {
 #features {
     padding: 7% 14%;
 }
+.feature-box {
+    text-align: center;
+}
