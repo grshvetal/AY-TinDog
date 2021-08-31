@@ -51,7 +51,7 @@ h1 {
 }
 .feature-box {
     text-align: center;
-    padding: 5%;
+    padding: 4.5%;
 }
 h3 {
     font-family: "Montserrat";
@@ -59,4 +59,7 @@ h3 {
 }
 p {
     color: #8f8f8f; 
+}
+.icon {
+    color: #EF8172;
 }
