@@ -41,13 +41,20 @@ h1 {
     margin: 5% 3% 5% 0;
 }
 /* Title image */
+.title-img-div {      /* to solve problem of image being larger with position absolute */
+    position: relative;
+}
 .title-img {
     width: 60%;
     transform: rotate(25deg);
+    position: absolute;
 }
 /* Feature Section */
 #features {
     padding: 7% 14%;
+    background-color: #FFF;
+    position: relative;
+    /* z-index: 1; */
 }
 .feature-box {
     text-align: center;
