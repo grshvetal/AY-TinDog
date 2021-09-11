@@ -138,3 +138,11 @@ h2 {
     font-size: 3.5rem;
     line-height: 1.5;
 }
+/* --- Footer section --- */
+#footer {
+    text-align: center;
+    padding: 7% 15%;
+}
+.social-icon {
+    margin: 20px 10px;
+}
