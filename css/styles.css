@@ -74,7 +74,9 @@ p {
 .icon:hover {
     color: #ff4c68;
 }
+
 /* Testimonials section */
+
 #testimonials {    
     text-align: center;
     background-color: #EF8172;
@@ -103,11 +105,25 @@ h2 {
 .carousel-item {
     padding: 7% 14%;
 }
+
 /* pricing section */
+
 #pricing {
     padding: 100px;
     text-align: center;
 }
 .pricing-column {
     padding: 3% 2%;
+}
+
+/* Media Query for title image */
+
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+    .title-img {
+        position: static;
+        transform: rotate(0);
+    }
 }
