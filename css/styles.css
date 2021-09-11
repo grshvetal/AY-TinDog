@@ -15,7 +15,7 @@ h1 {
     padding: 3% 15% 7%;
 }
 
-/* Navigation Bar  */
+/* --- Navigation Bar ---  */
 
 .navbar {
     padding-bottom: 4.5rem;
@@ -126,4 +126,15 @@ h2 {
         position: static;
         transform: rotate(0);
     }
+}
+/* ---- call to action or CTA section */
+#cta {
+    background-color: #ff4c68;
+    color: #FFF;
+    text-align: center;
+    padding: 7% 15%;
+}
+.cta-heading {
+    font-size: 3.5rem;
+    line-height: 1.5;
 }
