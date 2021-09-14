@@ -1,26 +1,32 @@
 body {
     font-family: 'Montserrat', sans-serif;
+    text-align: center;
 }
-#title {
-    background-color: #ff4c68;
-    color: #fff;
+h2, h3 {
+    font-weight: 700;
 }
-h1 {
-    font-family: 'Montserrat', sans-serif;
+p {
+    color: #8f8f8f; 
+}
+/* ------------ Headings --------------- */
+.title-heading {
     font-weight: 900;
-    line-height: 1.5;
     font-size: 3.5rem;    
+    line-height: 1.5;
 }
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+/*  ----------- Containers ------------------ */
 .container-fluid {
-    padding: 3% 15% 7%;
+    padding: 7% 15%;
 }
-
+/* ---------- Title Section ----------- */
 /* --- Navigation Bar ---  */
-
 .navbar {
     padding-bottom: 4.5rem;
 }
-
 .navbar-brand {
     font-family: "Ubuntu";
     font-size: 2.5rem;
@@ -33,14 +39,21 @@ h1 {
     font-weight: 300;
     font-size: 1.2rem;
 }
-.container-fluid2 {
+.navbar>.container-fluid {
     padding-left: 0;
 }
-/* Download buttons */
+/* ---- Navabar end --- */
+#title {
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: left;
+}
+#title>.container-fluid{
+    padding: 0% 15% 5%;
+}
 .download-button {
     margin: 5% 3% 5% 0;
 }
-/* Title image */
 .title-img-div {      /* to solve problem of image being larger with position absolute */
     position: relative;
 }
@@ -49,75 +62,8 @@ h1 {
     transform: rotate(25deg);
     position: absolute;
 }
-/* Feature Section */
-#features {
-    padding: 7% 14%;
-    background-color: #FFF;
-    position: relative;
-    /* z-index: 1; */
-}
-.feature-box {
-    text-align: center;
-    padding: 4.5%;
-}
-h3 {
-    font-family: "Montserrat";
-    font-weight: 700;
-}
-p {
-    color: #8f8f8f; 
-}
-.icon {
-    color: #EF8172;
-    margin-bottom: 1rem;
-}
-.icon:hover {
-    color: #ff4c68;
-}
-
-/* Testimonials section */
-
-#testimonials {    
-    text-align: center;
-    background-color: #EF8172;
-    color: #FFF;
-}
-h2 {
-    font-family: "Montserrat";
-    font-weight: 700;
-    font-size: 3rem;
-    line-height: 1.5;
-}
-.testimonial-image {
-    width: 10%;
-    border-radius: 50%;
-    margin: 20px;
-}
-#press {
-    background-color: #EF8172;
-    text-align: center;
-    padding-bottom: 3%;
-}
-.press-logo {
-    width: 15%;
-    margin: 20px 20px 50px;
-}
-.carousel-item {
-    padding: 7% 14%;
-}
-
-/* pricing section */
-
-#pricing {
-    padding: 100px;
-    text-align: center;
-}
-.pricing-column {
-    padding: 3% 2%;
-}
-
-/* Media Query for title image */
-
+/* Media Query for screens less than and equal to 1028px */
+/* will make text center aligned, and image unrotated and back in flow  */
 @media (max-width: 1028px) {
     #title {
         text-align: center;
@@ -127,22 +73,73 @@ h2 {
         transform: rotate(0);
     }
 }
-/* ---- call to action or CTA section */
+/* ---------- Feature Section ---------- */
+#features {
+    background-color: #FFF;
+    position: relative;
+    /* z-index: 1; */
+}
+.feature-box {
+    padding: 4.5%;
+}
+.feature-title {
+    font-size: 1.5rem;
+}
+
+.icon {
+    color: #EF8172;
+    margin-bottom: 1rem;
+}
+.icon:hover {
+    color: #ff4c68;
+}
+/* ---------- Testimonials section ---------- */
+#testimonials {    
+    background-color: #EF8172;
+    color: #FFF;
+}
+.testimonial-image {
+    width: 10%;
+    border-radius: 50%;
+    margin: 20px;
+}
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+#press {
+    background-color: #EF8172;
+    padding-bottom: 3%;
+}
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+/* ---------- pricing section ---------- */
+#pricing {
+    padding: 100px;
+}
+.pricing-column {
+    padding: 3% 2%;
+}
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+/* ---------- CTA section ---------- */
 #cta {
     background-color: #ff4c68;
     color: #FFF;
-    text-align: center;
-    padding: 7% 15%;
 }
 .cta-heading {
     font-size: 3.5rem;
     line-height: 1.5;
 }
-/* --- Footer section --- */
+/* ---------- Footer section ---------- */
 #footer {
-    text-align: center;
-    padding: 7% 15%;
 }
 .social-icon {
     margin: 20px 10px;
 }
+
+/* =================================== THE END ===================================== */
